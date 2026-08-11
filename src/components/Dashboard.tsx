@@ -42,7 +42,7 @@ export default function Dashboard({ state, onNavigate, onUpdateName, language = 
     earnedCredentials: isHi ? "अर्जित क्रेडेंशियल" : "Earned Credentials",
     uncertified: isHi ? "अप्रमाणित" : "Uncertified",
     unlockText: isHi ? "अनलॉक करने के लिए सभी कार्य पूरे करें" : "Complete all tasks to unlock",
-    diagnosticPhases: isHi ? "नैदानिक ​​अनुसंधान चरण" : "Diagnostic Research Phases",
+    diagnosticPhases: isHi ? "निदानात्मक अनुसंधान के चरण" : "Diagnostic Research Phases",
     badgeStatus: isHi ? "वैज्ञानिक बैज स्थिति" : "Scientific Badge Status",
     badgeTitle: isHi ? "मशीन लर्निंग वैज्ञानिक" : "Machine Learning Scientist",
     badgeVerified: isHi ? "क्रेडेंशियल सत्यापित। आप एमएल प्रतिमानों पर संगठनों को सलाह देने के लिए अधिकृत हैं।" : "Credential verified. You are authorized to advise organizations on ML paradigms.",
