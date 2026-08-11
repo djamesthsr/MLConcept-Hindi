@@ -121,7 +121,7 @@ export default function LearningLab({
         : "Customer Segmentation: A retail chain feeds raw purchasing history (frequency, amount, item types) into the AI. The system identifies 4 separate clusters of shoppers with matching habits (e.g. 'deal-seekers', 'bulk-buyers') without any manual human tagging.",
       question: isHi ? "इस परिदृश्य में अनसुपरवाइज्ड एआई की प्राथमिक क्रिया क्या है?" : "What is the primary action of Unsupervised AI in this scenario?",
       options: [
-        { key: "predict", text: isHi ? "भविष्य के मूल्य निर्धारण रुझानों की भविष्यवाणी करना" : "Predict future pricing trends" },
+        { key: "predict", text: isHi ? "भविष्य की कीमतों के रुझानों का E53" : "Predict future pricing trends" },
         { key: "groups", text: isHi ? "प्राकृतिक समूह या क्लस्टर खोजना" : "Find natural groups or clusters" },
         { key: "translate", text: isHi ? "ग्राहक उत्पाद समीक्षाओं का अनुवाद करना" : "Translate customer product reviews" }
       ],
@@ -142,7 +142,7 @@ export default function LearningLab({
       scenario: isHi
         ? "रोबोट वॉकिंग: एक वर्चुअल रोबोट को ट्रैक पर रखा जाता है। वह हजारों छोटे जोड़ों के मूवमेंट की कोशिश करता है। गिरने पर दंड (-10 अंक) मिलता है; 1 मीटर आगे बढ़ने पर पुरस्कार (+100 अंक) मिलता है। समय के साथ, रोबोट खुद को दौड़ना सिखा लेता है।"
         : "Robot Walking: A virtual bipedal robot is placed on a track. It tries thousands of small joint movements. Falling over results in a penalty (-10 points); moving forward 1 meter yields a reward (+100 points). Over time, the robot teaches itself to sprint.",
-      question: isHi ? "सुदृढीकरण एआई अपनी चलने की क्षमता में कैसे सुधार करता है?" : "How does the reinforcement AI improve its walking ability?",
+      question: isHi ? "रीइन्फोर्समेंट एआई अपनी चलने की क्षमता में कैसे सुधार करता है?" : "How does the reinforcement AI improve its walking ability?",
       options: [
         { key: "books", text: isHi ? "डिजाइन की किताबें पढ़ना" : "Reading structural design books" },
         { key: "trial", text: isHi ? "परीक्षण और त्रुटि (पुरस्कार और दंड के साथ)" : "Trial and Error (with rewards and penalties)" },
