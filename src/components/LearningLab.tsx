@@ -268,7 +268,7 @@ export default function LearningLab({
                 <div className="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 group-hover:bg-cyan-500 group-hover:text-slate-950 transition-colors">
                   <Mail size={24} />
                 </div>
-                <span className="text-xs font-mono font-bold text-cyan-400">SECTOR A</span>
+                <span className="text-xs font-mono font-bold text-cyan-400">क्षेत्र A</span>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors font-display">{t.supervisedTitle}</h3>
@@ -292,7 +292,7 @@ export default function LearningLab({
                 <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 group-hover:bg-emerald-500 group-hover:text-slate-950 transition-colors">
                   <Users size={24} />
                 </div>
-                <span className="text-xs font-mono font-bold text-emerald-400">SECTOR B</span>
+                <span className="text-xs font-mono font-bold text-emerald-400">क्षेत्र B</span>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors font-display">{t.unsupervisedTitle}</h3>
@@ -316,7 +316,7 @@ export default function LearningLab({
                 <div className="p-3 rounded-xl bg-rose-500/10 text-rose-400 border border-rose-500/20 group-hover:bg-rose-500 group-hover:text-slate-950 transition-colors">
                   <Flame size={24} />
                 </div>
-                <span className="text-xs font-mono font-bold text-rose-400">SECTOR C</span>
+                <span className="text-xs font-mono font-bold text-rose-400">क्षेत्र C</span>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white group-hover:text-rose-400 transition-colors font-display">{t.reinforcementTitle}</h3>
