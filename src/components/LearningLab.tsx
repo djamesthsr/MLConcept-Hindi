@@ -91,7 +91,7 @@ export default function LearningLab({
       title: isHi ? "सुपरवाइज्ड लर्निंग लैब" : "Supervised Learning Lab",
       subtitle: isHi ? "लेबल वाले उदाहरणों से सीखना" : "Learning from Labeled Examples",
       content: isHi
-        ? "सुपरवाइज्ड लर्निंग एक शिक्षक के साथ सीखने की तरह कार्य करता है। एआई को उनके संबंधित सही लेबल (उत्तर) के साथ इनपुट का एक ऐतिहासिक डेटासेट दिया जाता है। एआई सामान्य सूत्र सीखने के लिए इन लेबल वाले जोड़ों का विश्लेषण करता है। एक बार प्रशिक्षित होने के बाद, यह नए, अनदेखे डेटा के लिए लेबल की भविष्यवाणी कर सकता है।"
+        ? "सुपरवाइज्ड लर्निंग एक शिक्षक के साथ सीखने की तरह कार्य करता है। एआई को उनके संबंधित सही लेबल (उत्तर) के साथ इनपुट का एक ऐतिहासिक डेटासेट दिया जाता है। एआई सामान्य सूत्र सीखने के लिए इन लेबल वाले जोड़ों का विश्लेषण करता है। एक बार प्रशिक्षित होने के बाद, यह नए, अनदेखे डेटा के लिए लेबल का अनुमान लगा सकता है।"
         : "Supervised Learning acts like learning with a teacher. The AI is fed a historical dataset of inputs along with their corresponding correct labels (answers). The AI analyzes these labeled pairs to learn the general formula. Once trained, it can predict labels for new, unseen data.",
       scenario: isHi
         ? "स्पैम ईमेल फ़िल्टर: मशीन को हजारों ईमेल खिलाए जाते हैं, जिन्हें इंजीनियरों द्वारा पहले ही 'स्पैम' या 'नॉन-स्पैम' के रूप में चिह्नित किया गया है। यह बाद के ईमेल को वर्गीकृत करने के लिए शब्दावली पैटर्न, प्रेषकों और लेआउट संरचनाओं का विश्लेषण करता है।"
