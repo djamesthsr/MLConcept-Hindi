@@ -79,7 +79,7 @@ export default function MissionBrief({ userName, isCompleted, onComplete, onNavi
       // Fallback
       setBriefText(
         isHi
-          ? "एआई रिसर्च लैब, वैज्ञानिक में आपका स्वागत है। आपका कार्य यह जांचना है कि मशीनें विभिन्न प्रकार के डेटासेट से कैसे सीखती हैं: लेबल वाले उदाहरणों (सुपरवाइज्ड) का उपयोग करना, क्लस्टर खोजना (अनसुपरवाइज्ड), और परीक्षण-और-त्रुटि पुरस्कार (रीइन्फोर्समेंट) के माध्यम से प्रशिक्षण। अपनी जांच शुरू करने के लिए अपने क्रेडेंशियल सुरक्षित करें और प्रयोगशाला के दरवाजे में प्रवेश करें।"
+          ? "एआई अनुसंधान प्रयोगशाला में आपका स्वागत है, वैज्ञानिक आपका कार्य यह जांचना है कि मशीनें विभिन्न प्रकार के डेटासेट से कैसे सीखती हैं: लेबल वाले उदाहरणों (सुपरवाइज्ड) का उपयोग करना, क्लस्टर खोजना (अनसुपरवाइज्ड), और परीक्षण-और-त्रुटि पुरस्कार (रीइन्फोर्समेंट) के माध्यम से प्रशिक्षण। अपनी जांच शुरू करने के लिए अपने क्रेडेंशियल सुरक्षित करें और प्रयोगशाला के दरवाजे में प्रवेश करें।"
           : "Welcome to the AI Research Lab, Scientist. Your task is to investigate how machines learn from different types of datasets: using labeled examples (Supervised), discovering clusters (Unsupervised), and training via trial-and-error rewards (Reinforcement). Secure your credentials and enter the laboratory doors to initiate your investigation."
       );
     } finally {
