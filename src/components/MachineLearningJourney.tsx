@@ -109,8 +109,8 @@ export default function MachineLearningJourney({
     },
     {
       stage: isHi ? "मॉडल का परीक्षण करें" : "Test Model",
-      desc: isHi ? "पवित्र परीक्षण सेटों का उपयोग करके भविष्यवाणियों का मूल्यांकन करें।" : "Evaluate predictions using pristine test sets.",
-      scientificContext: isHi ? "मॉडल सत्यापन सेटों पर भविष्यवाणियों का प्रयास करता है जो उसने पहले कभी नहीं देखे हैं, जिससे शोधकर्ताओं को वास्तविक दुनिया के सामान्यीकरण का मूल्यांकन करने की अनुमति मिलती है।" : "The model attempts predictions on validation sets it has never seen before, allowing researchers to evaluate real-world generalization.",
+      desc: isHi ? "शुद्ध परीक्षण डेटा का उपयोग करके पूर्वानुमानों का मूल्यांकन करें।" : "Evaluate predictions using pristine test sets.",
+      scientificContext: isHi ? "मॉडल ऐसे सत्यापन डेटा पर पूर्वानुमान लगाने की कोशिश करता है जिसे उसने पहले कभी नहीं देखा है। इससे शोधकर्ताओं को यह मूल्यांकन करने में मदद मिलती है कि मॉडल वास्तविक दुनिया के नए डेटा पर कितना अच्छा काम करता है।" : "The model attempts predictions on validation sets it has never seen before, allowing researchers to evaluate real-world generalization.",
       keyMetric: isHi ? "कन्फ्यूजन मैट्रिक्स और सटीकता प्रतिशत" : "Confusion matrix & accuracy percentage"
     },
     {
