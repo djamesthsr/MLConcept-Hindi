@@ -94,7 +94,7 @@ export default function LearningLab({
         ? "सुपरवाइज्ड लर्निंग एक शिक्षक के साथ सीखने की तरह कार्य करता है। एआई को उनके संबंधित सही लेबल (उत्तर) के साथ इनपुट का एक ऐतिहासिक डेटासेट दिया जाता है। एआई सामान्य सूत्र सीखने के लिए इन लेबल वाले जोड़ों का विश्लेषण करता है। एक बार प्रशिक्षित होने के बाद, यह नए, अनदेखे डेटा के लिए लेबल का अनुमान लगा सकता है।"
         : "Supervised Learning acts like learning with a teacher. The AI is fed a historical dataset of inputs along with their corresponding correct labels (answers). The AI analyzes these labeled pairs to learn the general formula. Once trained, it can predict labels for new, unseen data.",
       scenario: isHi
-        ? "स्पैम ईमेल फ़िल्टर: मशीन को हजारों ईमेल खिलाए जाते हैं, जिन्हें इंजीनियरों द्वारा पहले ही 'स्पैम' या 'नॉन-स्पैम' के रूप में चिह्नित किया गया है। यह बाद के ईमेल को वर्गीकृत करने के लिए शब्दावली पैटर्न, प्रेषकों और लेआउट संरचनाओं का विश्लेषण करता है।"
+        ? "स्पैम ईमेल फ़िल्टर: मशीन को हज़ारों ईमेल दिए जाते हैं, जिन्हें इंजीनियरों द्वारा पहले ही 'स्पैम' या 'नॉन-स्पैम' के रूप में चिह्नित किया गया है। यह बाद के ईमेल को वर्गीकृत करने के लिए शब्दावली पैटर्न, प्रेषकों और लेआउट संरचनाओं का विश्लेषण करता है।"
         : "Spam Email Filter: The machine is fed thousands of emails, already flagged by engineers as 'Spam' or 'Not Spam'. It analyzes vocabulary patterns, senders, and layout structures to classify subsequent emails.",
       question: isHi ? "इस एआई को स्पैम पैटर्न सीखने में क्या मदद करता है?" : "What helps this AI learn spam patterns?",
       options: [
