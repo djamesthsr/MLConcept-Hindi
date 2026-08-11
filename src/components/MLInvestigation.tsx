@@ -76,7 +76,7 @@ export default function MLInvestigation({
     {
       id: "hospital",
       org: isHi ? "सिटी जनरल अस्पताल" : "City General Hospital",
-      problem: isHi ? "ऐतिहासिक नैदानिक रिकॉर्ड और निदान किए गए रोगी परिणामों से बीमारी की संवेदनशीलता की भविष्यवाणी करें।" : "Predict disease susceptibility from historical clinical records and diagnosed patient outcomes.",
+      problem: isHi ? "ऐतिहासिक नैदानिक रिकॉर्ड और निदान किए गए रोगी परिणामों से बीमारी की संवेदनशीलता का अनुमान लगाओ|" : "Predict disease susceptibility from historical clinical records and diagnosed patient outcomes.",
       choices: ["Supervised", "Unsupervised", "Reinforcement"],
       correctAnswer: "Supervised",
       hints: isHi ? "अस्पताल के पास पहले से ही ऐतिहासिक नैदानिक रिकॉर्ड हैं जो निदान परिणामों (उदा. 'बीमार' या 'स्वस्थ') के साथ लेबल किए गए हैं।" : "The hospital already possesses historical clinical records which are labeled with diagnosed outcomes (e.g., 'Sick' or 'Healthy').",
